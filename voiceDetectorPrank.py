@@ -64,11 +64,11 @@ def user_input():
 
 target_names = ["funny", "car", "crazy", "going", "busy"]  
 sound_files = [
-    r"C:\Users\Valerie\Downloads\PikachuSong.mp3",    
-    r"C:\Users\Valerie\Downloads\OohEehOohAhAh.mp3",
-    r"C:\Users\Valerie\Downloads\GangnamFox.mp3",
-    r"C:\Users\Valerie\Downloads\DoraemonOG.mp3",
-    r"C:\Users\Valerie\Downloads\QueenBohemian.mp3"   
+    r"C:\changethistoyourownfile.mp3",    
+    r"C:\changethistoyourownfile.mp3",
+    r"C:\changethistoyourownfile.mp3",
+    r"C:\changethistoyourownfile.mp3",
+    r"C:\changethistoyourownfile.mp3"   
 ]
 
 listener_thread = threading.Thread(target=listen_for_name, args=(target_names, sound_files))
